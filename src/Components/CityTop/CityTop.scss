@@ -1,0 +1,72 @@
+.City {
+  &__out {
+    display: none;
+    height: 152px;
+    border: 1px solid #000;
+    background: #ffffff;
+    border: 5px solid rgba(0, 0, 0, 0.2);
+    border-radius: 12px;
+    padding-bottom: 20px;
+    border-bottom: none;
+    margin-bottom: 5px;
+    left: 0;
+    top: -179px;
+    &__list {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 20px;
+      padding-top: 26px;
+      padding-right: 54px;
+      cursor: pointer;
+      &__item {
+        margin-left: 30px;
+        margin-bottom: 15px;
+      }
+    }
+    &__line {
+      display: block;
+      margin-bottom: 18px;
+      width: 100%;
+    }
+    &__lists {
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      list-style: none;
+      gap: 16px;
+      margin-left: 25px;
+
+      &__items {
+        font-family: "Onest";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 15px;
+        display: flex;
+        align-items: center;
+        color: #000000;
+        opacity: 0.4;
+        cursor: pointer;
+      }
+      &__items:nth-child(2) {
+        font-family: "Onest";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 15px;
+        display: flex;
+        align-items: center;
+        color: #000000;
+        opacity: 1;
+        cursor: pointer;
+      }
+    }
+  }
+}

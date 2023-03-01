@@ -1,0 +1,111 @@
+body {
+  margin: 0;
+  font-family: Onest;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+.container {
+  max-width: 1790px;
+  padding: 0 15px;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+.footer__container {
+  max-width: 1920px;
+  margin: 0 auto;
+  padding: 0 15px;
+  box-sizing: border-box;
+}
+.frame__container {
+  max-width: 1149px;
+  margin: 0 auto;
+  padding: 0 15px;
+  box-sizing: border-box;
+}
+.Удобства__container {
+  max-width: 751px;
+  margin: 0 auto;
+  padding: 0 15px;
+  box-sizing: border-box;
+}
+.main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  position: relative;
+}
+.opacity__li {
+  opacity: 0.4;
+}
+
+.slick-track {
+  display: flex;
+  gap: 5px !important;
+}
+.author__container {
+  max-width: 351px;
+  margin: 0 auto;
+  padding: 0;
+  box-sizing: border-box;
+}
+.aftor {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.infomation {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  position: relative;
+}
+.plus {
+  display: flex;
+  align-items: center;
+  background: #7000ff;
+  border-radius: 5px;
+  padding: 12px;
+}
+.City__all {
+  position: absolute;
+  left: 29%;
+  bottom: 50%;
+  width: 740px;
+  background: rgba(0, 0, 0, 0.2);
+  border: 5px solid rgba(0, 0, 0, 0.2);
+  background: rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(17px);
+  border-radius: 16px;
+}
+.header__logo{
+  max-width: 1855px;
+  margin: 0 auto;
+  padding: 0 47px 0 0;
+  box-sizing: border-box;
+}
+.InformationAccaunt__main{
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.City__inner__list__item__active{
+  font-family: "Onest";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 14px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        color: #7000ff;
+        border: 1px solid #000;
+        border-radius: 80%;
+        padding: 14px 19px;
+        cursor: pointer;
+}

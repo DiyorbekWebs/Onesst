@@ -1,0 +1,72 @@
+.recent {
+    transform: translateY(-200%);
+    position: absolute;
+    z-index: 1;
+    left: -6px;
+    top: 42px;
+    transition: 1s;
+    &__inner
+{
+    width: 948px;
+    height: 443px;
+    border: 1px solid black;
+    border-radius: 0 0 8px 8px;
+    background: #ffffff;
+    padding-left: 30px;
+    &__search {
+      font-family: "Onest";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 18px;
+      display: flex;
+      align-items: center;
+      color: #000000;
+      flex: none;
+      order: 0;
+      flex-grow: 0;
+      padding: 5px 15px;
+      border-radius: 15px;
+      background-color: #fff;
+      cursor: pointer;
+    }
+    &__first {
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      gap: 10px;
+      margin-bottom: 33px;
+    }
+    &__h2 {
+      font-family: "Onest";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 12px;
+      line-height: 15px;
+      display: flex;
+      align-items: center;
+      color: #000000;
+      margin: 0;
+      padding: 0;
+      margin-top: 30px;
+      margin-bottom: 23px;
+    }
+    &__top {
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      gap: 10px;
+    }
+    &__span {
+      font-family: "Onest";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 12px;
+      line-height: 15px;
+      display: flex;
+      align-items: center;
+      color: #000000;
+      margin-bottom: 15px;
+    }
+  }
+}

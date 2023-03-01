@@ -1,0 +1,26 @@
+img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 12px;
+    display: block;
+}
+.anime__two{
+    width: 351px;
+    height: 500px;
+    display: flex!important;
+    flex-direction: column;
+    gap: 5px;
+}
+.anime__one{
+    width: 779px;
+    height: 500px;
+    margin: 0;
+    padding: 0;
+    display: block;
+    object-fit: cover;
+
+}
+.anime__inner{
+    margin-bottom: 60px;
+}
